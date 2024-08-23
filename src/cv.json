@@ -299,7 +299,7 @@
                 "Diseño limpio y moderno.",
                 "Configurable desde un template JSON."
             ],
-            "url": "https://gcruces95.github.io/minimalist-portfolio/",
+            "url": "https://gcruces.netlify.app/",
             "github": "https://github.com/gcruces95/minimalist-portfolio-json"
         },
         {
@@ -310,7 +310,7 @@
                 "Gestión de desafíos de programación en línea.",
                 "Enfoque en la educación y aprendizaje interactivo."
             ],
-            "url": "",
+            "url": "https://github.com/gcruces95/pidu",
             "github": "https://github.com/gcruces95/pidu"
         },
         {
@@ -321,7 +321,7 @@
                 "Espacio reservado para futuros proyectos innovadores.",
                 "Mantente atento a las actualizaciones."
             ],
-            "url": "https://miduconf.com"
+            "url": ""
         }
     ]
 }
