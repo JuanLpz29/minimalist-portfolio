@@ -6,7 +6,7 @@
         "email": "gabrielcrucesg@gmail.com",
         "phone": "+569 30236176",
         "url": "",
-        "summary": "Soy Ingeniero Civil Informático con más de un año de experiencia en desarrollo backend y frontend. He adquirido experiencia a través de prácticas en una empresa de investigación enfocada en periodismo y en el sector público, así como en mi tesis centrada en educación. Aunque no tengo un stack de tecnologías definido, he manejado diversas herramientas en distintos contextos. Actualmente, me capacito de manera autodidacta y estoy involucrado en un proyecto para el cual obtuvimos un fondo CORFO junto a mis socios. Vivo en Chile, moviéndome periódicamente entre Santiago y Valdivia, y estoy buscando la oportunidad para comenzar mi carrera profesional en el área de desarrollo e ingeniería de software.",
+        "summary": "Soy Ingeniero Civil Informático con más de un año de experiencia en desarrollo backend y frontend, con trayectoria en sectores como I+D, sector público, logística, educación y salud. Aunque no me limito a un stack tecnológico específico, he trabajado con diversas herramientas adaptándome a distintos contextos. Actualmente, formo parte del equipo de MediSmart.Live, donde desarrollo productos innovadores utilizando tecnologías como Next.js, Tailwind CSS y TypeScript para el frontend, y AWS Lambda con Node.js en el backend. También participo en un proyecto que ha sido beneficiado con un fondo CORFO. Resido en Chile, dividiendo mi tiempo entre Santiago y Valdivia, y estoy en busca de oportunidades para seguir creciendo profesionalmente en el ámbito del desarrollo e ingeniería de software.",
         "location": {
             "address": "",
             "postalCode": "9090391",
@@ -33,62 +33,75 @@
         ]
     },
     "work": [
-        {
-            "name": "Austrum",
-            "position": "Director de Arquitectura y Base de Datos y Desarrollador",
-            "url": null,
-            "startDate": "2023-09-01",
-            "endDate": null,
-            "summary": "Como cofundador de Austrum, lidero la definición de la arquitectura del software y el modelamiento de datos, contribuyendo a la creación de soluciones tecnológicas innovadoras.",
-            "highlights": [
-                "Diseñé la arquitectura de software escalable para aplicaciones críticas",
-                "Modelé bases de datos optimizadas para grandes volúmenes de datos",
-                "Desarrollé y mantuve tanto backend como frontend, asegurando una integración fluida entre ambas capas."
-            ],
-            "location": "Valdivia, Región de Los Ríos, Chile"
-        },
-        {
-            "name": "Municipalidad de Cerro Navia",
-            "position": "Ingeniero Informático",
-            "url": "https://www.cerronavia.cl/",
-            "startDate": "2023-02-01",
-            "endDate": "2023-04-01",
-            "summary": "Brindé soporte técnico y desarrollé soluciones de software para mejorar la eficiencia operativa en el Departamento de Modernización y TICs.",
-            "highlights": [
-                "Desarrollé un sistema de inventario automatizado que permitió un mejor seguimiento de activos.",
-                "Proporcioné soporte técnico a más de 50 usuarios, resolviendo problemas de hardware y software."
-            ],
-            "location": "Cerro Navia, Región Metropolitana de Santiago, Chile"
-        },
-        {
-            "name": "Sophia Technologies, UACH",
-            "position": "Desarrollador de Software",
-            "url": "https://sophialt.org/",
-            "startDate": "2022-03-01",
-            "endDate": "2022-07-01",
-            "summary": "Durante mi práctica, diseñé e implementé módulos clave para una plataforma de análisis de medios, mejorando su funcionalidad y rendimiento.",
-            "highlights": [
-                "Desarrollé nuevos componentes de software utilizando Python y librerías de procesamiento de lenguaje natural (NLP), principalmente la automatización de generar reportes de análisis de medios.",
-                "Colaboré con un equipo interdisciplinario, integrando feedback para mejorar la usabilidad y funcionalidad de la plataforma.",
-                "Tuve un rol en la recomendación de tecnologías y arquitecturas para mejorar la escalabilidad y mantenibilidad del software."
-            ],
-            "location": "Valdivia, Región de Los Ríos, Chile"
-        },
-        {
-            "name": "Sodimac",
-            "position": "Administrativo de Despacho a Domicilio Nacional",
-            "url": "https://www.sodimac.cl/sodimac-cl",
-            "startDate": "2014-03-01",
-            "endDate": "2017-01-01",
-            "summary": "En mi rol en Sodimac, gestioné el despacho a domicilio a nivel nacional, optimizando procesos clave para mejorar la eficiencia y satisfacción del cliente.",
-            "highlights": [
-                "Lideré la optimización del proceso de facturación de productos siniestrados, reduciendo el tiempo de procesamiento en un 30%.",
-                "Estandaricé procedimientos de facturación, lo que resultó en una reducción de errores del 25% y una mejora en la precisión de los reportes.",
-                "Colaboré con equipos interdepartamentales para identificar y resolver cuellos de botella en la logística, mejorando la eficiencia operativa general."
-            ],
-            "location": "Gran Santiago, Región Metropolitana de Santiago, Chile"
-        }
-    ],
+		{
+			"name": "MediSmart.Live {Remoto}",
+			"position": "Desarrollador Fullstack",
+			"url": "https://cl.medismart.live/",
+			"startDate": "2024-10-01",
+			"endDate": null,
+			"summary": "Soy parte del equipo de desarrollo de nuevos productos de MediSmart.Live, MedisMart.Live es un proveedor de atención médica digital que ofrece servicios de telemedicina, bienestar y salud mental.",
+			"highlights": [
+				"Desarrollé el frontend del producto/servicio 'Bienestar continuo' para pacientes crónicos (noviembre, 2024)"
+
+			],
+			"location": "Valdivia, Región de Los Ríos, Chile"
+		},
+		{
+			"name": "Austrum (Medio Tiempo)",
+			"position": "Director de Arquitectura y Base de Datos y Desarrollador",
+			"url": null,
+			"startDate": "2023-09-01",
+			"endDate": null,
+			"summary": "Como cofundador de Austrum, lidero la definición de la arquitectura del software y el modelamiento de datos, contribuyendo a la creación de soluciones tecnológicas innovadoras.",
+			"highlights": [
+				"Diseñé la arquitectura de software escalable para aplicaciones críticas",
+				"Modelé bases de datos optimizadas para grandes volúmenes de datos",
+				"Desarrollé y mantuve tanto backend como frontend, asegurando una integración fluida entre ambas capas."
+			],
+			"location": "Valdivia, Región de Los Ríos, Chile"
+		},
+		{
+			"name": "Municipalidad de Cerro Navia",
+			"position": "Ingeniero Informático",
+			"url": "https://www.cerronavia.cl/",
+			"startDate": "2023-02-01",
+			"endDate": "2023-04-01",
+			"summary": "Brindé soporte técnico y desarrollé soluciones de software para mejorar la eficiencia operativa en el Departamento de Modernización y TICs.",
+			"highlights": [
+				"Desarrollé un sistema de inventario automatizado que permitió un mejor seguimiento de activos.",
+				"Proporcioné soporte técnico a más de 50 usuarios, resolviendo problemas de hardware y software."
+			],
+			"location": "Cerro Navia, Región Metropolitana de Santiago, Chile"
+		},
+		{
+			"name": "Sophia Technologies, UACH",
+			"position": "Desarrollador de Software",
+			"url": "https://sophialt.org/",
+			"startDate": "2022-03-01",
+			"endDate": "2022-07-01",
+			"summary": "Durante mi práctica, diseñé e implementé módulos clave para una plataforma de análisis de medios, mejorando su funcionalidad y rendimiento.",
+			"highlights": [
+				"Desarrollé nuevos componentes de software utilizando Python y librerías de procesamiento de lenguaje natural (NLP), principalmente la automatización de generar reportes de análisis de medios.",
+				"Colaboré con un equipo interdisciplinario, integrando feedback para mejorar la usabilidad y funcionalidad de la plataforma.",
+				"Tuve un rol en la recomendación de tecnologías y arquitecturas para mejorar la escalabilidad y mantenibilidad del software."
+			],
+			"location": "Valdivia, Región de Los Ríos, Chile"
+		},
+		{
+			"name": "Sodimac",
+			"position": "Administrativo de Despacho a Domicilio Nacional",
+			"url": "https://www.sodimac.cl/sodimac-cl",
+			"startDate": "2014-03-01",
+			"endDate": "2017-01-01",
+			"summary": "En mi rol en Sodimac, gestioné el despacho a domicilio a nivel nacional, optimizando procesos clave para mejorar la eficiencia y satisfacción del cliente.",
+			"highlights": [
+				"Lideré la optimización del proceso de facturación de productos siniestrados, reduciendo el tiempo de procesamiento en un 30%.",
+				"Estandaricé procedimientos de facturación, lo que resultó en una reducción de errores del 25% y una mejora en la precisión de los reportes.",
+				"Colaboré con equipos interdepartamentales para identificar y resolver cuellos de botella en la logística, mejorando la eficiencia operativa general."
+			],
+			"location": "Gran Santiago, Región Metropolitana de Santiago, Chile"
+		}
+	],
     "volunteer": [
         {
             "organization": "Organization",
