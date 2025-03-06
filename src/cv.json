@@ -1,77 +1,45 @@
 {
     "basics": {
-        "name": "Gabriel Cruces Gallardo",
-        "label": "Ingeniero Civil Informático | Desarrollador Backend & Frontend | Buscando Oportunidades en Desarrollo e Ingeniería de Software",
-        "image": "https://avatars.githubusercontent.com/u/66741207?v=4",
-        "email": "gabrielcrucesg@gmail.com",
-        "phone": "+569 30236176",
+        "name": "Juan Antonio López Maragaño",
+        "label": "Egresado de Ingeniería Civil en Informática Buscando Oportunidades Laborales en Desarrollo e Ingeniería de Software y Data Science",
+        "image": "https://avatars.githubusercontent.com/u/43872298?s=400&u=b0125b3c7102da6278cc8c34a84615eb2578fa37&v=4",
+        "email": "juanlpez29@gmail.com",
+        "phone": "+569 86907555",
         "url": "",
-        "summary": "Soy Ingeniero Civil Informático con más de un año de experiencia en desarrollo backend y frontend, con trayectoria en sectores como I+D, sector público, logística, educación y salud. Aunque no me limito a un stack tecnológico específico, he trabajado con diversas herramientas adaptándome a distintos contextos. Actualmente, formo parte del equipo de MediSmart.Live, donde desarrollo productos innovadores utilizando tecnologías como Next.js, Tailwind CSS y TypeScript para el frontend, y AWS Lambda con Node.js en el backend. También participo en un proyecto que ha sido beneficiado con un fondo CORFO. Resido en Chile, dividiendo mi tiempo entre Santiago y Valdivia, y estoy en busca de oportunidades para seguir creciendo profesionalmente en el ámbito del desarrollo e ingeniería de software.",
+        "summary": "Soy Egresado de Ingeniería Civil en Informática de la Universidad Austral de Chile, con interés en oportunidades laborales para impulsar mi carrera como profesional de la informática. Poseo experiencia en trabajo colaborativo en entornos multidisciplinarios, con aptitudes e interés en el desarrollo de software y la automatización de procesos de ingeniería.",
         "location": {
             "address": "",
             "postalCode": "9090391",
-            "city": "Santiago - Valdivia",
+            "city": "Osorno",
             "countryCode": "CL",
             "region": "Chile"
         },
         "profiles": [
             {
                 "network": "LinkedIn",
-                "username": "gabrielcrucesg",
-                "url": "https://linkedin.com/in/gabrielcrucesg/"
+                "username": "juanlpzm",
+                "url": "https://linkedin.com/in/juanlpzm/"
             },
             {
                 "network": "GitHub",
-                "username": "gcruces95",
-                "url": "https://github.com/gcruces95"
-            },
-            {
-                "network": "X",
-                "username": "gabrielcrucesg",
-                "url": "https://x.com/gabrielcrucesg"
+                "username": "JuanLpz29",
+                "url": "https://github.com/JuanLpz29"
             }
         ]
     },
     "work": [
 		{
-			"name": "MediSmart.Live {Remoto}",
-			"position": "Desarrollador Fullstack",
-			"url": "https://cl.medismart.live/",
-			"startDate": "2024-10-01",
-			"endDate": null,
-			"summary": "Soy parte del equipo de desarrollo de nuevos productos de MediSmart.Live, MedisMart.Live es un proveedor de atención médica digital que ofrece servicios de telemedicina, bienestar y salud mental.",
+			"name": "Grupo Saesa",
+			"position": "Prácticante área I+D",
+			"url": "https://web.gruposaesa.cl/web/saesa",
+			"startDate": "2024-01-02",
+			"endDate": "2024-03-01",
+			"summary": "Practica Profesional en el área de Innovación y Desarrollo enfocada en la automatización de procesos de Ingeniería.",
 			"highlights": [
-				"Desarrollé el frontend del producto/servicio 'Bienestar continuo' para pacientes crónicos (noviembre, 2024)"
-
+				"Desarrollé una planilla de automatización para la planificación de proyectos y la gestión de HH para distintos ingenieros.",
+				"Utilicé herramientas como Excel y VBA para el manejo de los datos y la construcción de un dashboard de resumen."
 			],
-			"location": "Valdivia, Región de Los Ríos, Chile"
-		},
-		{
-			"name": "Austrum (Medio Tiempo)",
-			"position": "Director de Arquitectura y Base de Datos y Desarrollador",
-			"url": null,
-			"startDate": "2023-09-01",
-			"endDate": null,
-			"summary": "Como cofundador de Austrum, lidero la definición de la arquitectura del software y el modelamiento de datos, contribuyendo a la creación de soluciones tecnológicas innovadoras.",
-			"highlights": [
-				"Diseñé la arquitectura de software escalable para aplicaciones críticas",
-				"Modelé bases de datos optimizadas para grandes volúmenes de datos",
-				"Desarrollé y mantuve tanto backend como frontend, asegurando una integración fluida entre ambas capas."
-			],
-			"location": "Valdivia, Región de Los Ríos, Chile"
-		},
-		{
-			"name": "Municipalidad de Cerro Navia",
-			"position": "Ingeniero Informático",
-			"url": "https://www.cerronavia.cl/",
-			"startDate": "2023-02-01",
-			"endDate": "2023-04-01",
-			"summary": "Brindé soporte técnico y desarrollé soluciones de software para mejorar la eficiencia operativa en el Departamento de Modernización y TICs.",
-			"highlights": [
-				"Desarrollé un sistema de inventario automatizado que permitió un mejor seguimiento de activos.",
-				"Proporcioné soporte técnico a más de 50 usuarios, resolviendo problemas de hardware y software."
-			],
-			"location": "Cerro Navia, Región Metropolitana de Santiago, Chile"
+			"location": "Osorno, Región de Los Lagos, Chile"
 		},
 		{
 			"name": "Sophia Technologies, UACH",
@@ -79,27 +47,39 @@
 			"url": "https://sophialt.org/",
 			"startDate": "2022-03-01",
 			"endDate": "2022-07-01",
-			"summary": "Durante mi práctica, diseñé e implementé módulos clave para una plataforma de análisis de medios, mejorando su funcionalidad y rendimiento.",
+			"summary": "Para efectos de mi práctica inicial dentro de la carrera, tuve la oportunidad de trabajar en este proyecto el cual tenía como objetivo elaborar y validar métodos computacionales e indicadores para medir el pluralismo de los medios de comunicación.",
 			"highlights": [
-				"Desarrollé nuevos componentes de software utilizando Python y librerías de procesamiento de lenguaje natural (NLP), principalmente la automatización de generar reportes de análisis de medios.",
+				"Apoyo en el desarrollo de un script generador de PDF para el GORE de los Lagos y específicamente estuve a cargo de la generación de diversas tablas para mostrar distintos tipos de información.",
 				"Colaboré con un equipo interdisciplinario, integrando feedback para mejorar la usabilidad y funcionalidad de la plataforma.",
-				"Tuve un rol en la recomendación de tecnologías y arquitecturas para mejorar la escalabilidad y mantenibilidad del software."
+				"Ayudé a gestionar y planificar actividades correspondientes a la postulación de fondos como CORFO."
 			],
 			"location": "Valdivia, Región de Los Ríos, Chile"
 		},
-		{
-			"name": "Sodimac",
-			"position": "Administrativo de Despacho a Domicilio Nacional",
-			"url": "https://www.sodimac.cl/sodimac-cl",
-			"startDate": "2014-03-01",
-			"endDate": "2017-01-01",
-			"summary": "En mi rol en Sodimac, gestioné el despacho a domicilio a nivel nacional, optimizando procesos clave para mejorar la eficiencia y satisfacción del cliente.",
+        {
+			"name": "Multimarcas Doggis",
+			"position": "Encargado de turno",
+			"url": null,
+			"startDate": "2021-01-02",
+			"endDate": "2021-03-01",
+			"summary": "Encargado de dirigir tareas del personal, manejo de inventario y atención de público en el local.",
 			"highlights": [
-				"Lideré la optimización del proceso de facturación de productos siniestrados, reduciendo el tiempo de procesamiento en un 30%.",
-				"Estandaricé procedimientos de facturación, lo que resultó en una reducción de errores del 25% y una mejora en la precisión de los reportes.",
-				"Colaboré con equipos interdepartamentales para identificar y resolver cuellos de botella en la logística, mejorando la eficiencia operativa general."
+				"Control de inventario.",
+				"Supervisión del personal."
 			],
-			"location": "Gran Santiago, Región Metropolitana de Santiago, Chile"
+			"location": "Osorno, Región de Los Lagos, Chile"
+		},
+        {
+			"name": "Agrícola el Pampino",
+			"position": "Supervisor",
+			"url": null,
+			"startDate": "2021-01-02",
+			"endDate": "2021-03-01",
+			"summary": "Estuve a cargo de supervisar a los cosecheros, asignar tareas en terreno y manejo del grupo de personas en general.",
+			"highlights": [
+				"Gestión de equipos.",
+				"Asignación de tareas."
+			],
+			"location": "Osorno, Región de Los Lagos, Chile"
 		}
 	],
     "volunteer": [
@@ -119,8 +99,8 @@
             "url": "https://www.uach.cl/",
             "area": "Ingeniería Civil en Informática",
             "studyType": "Licenciatura",
-            "startDate": "2017-01-01",
-            "endDate": "2024-01-01",
+            "startDate": "2017-03-01",
+            "endDate": "2025-03-01",
             "score": "",
             "courses": []
         }
@@ -192,16 +172,6 @@
             "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
         },
         {
-            "name": "MySQL",
-            "level": "Avanzado",
-            "keywords": [
-                "Bases de Datos",
-                "SQL",
-                "Almacenamiento de Datos",
-                "Backend"
-            ]
-        },
-        {
             "name": "Git",
             "level": "Avanzado",
             "keywords": [
@@ -222,26 +192,6 @@
         },
         {
             "name": "React",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "JavaScript Library",
-                "UI"
-            ]
-        },
-        {
-            "name": "MariaDB",
-            "level": "Avanzado",
-            "keywords": [
-                "Desarrollo Web",
-                "Frontend",
-                "JavaScript Library",
-                "UI"
-            ]
-        },
-        {
-            "name": "Xampp",
             "level": "Avanzado",
             "keywords": [
                 "Desarrollo Web",
@@ -273,12 +223,12 @@
     ],
     "languages": [
         {
-            "language": "Spanish",
-            "fluency": "Native speaker"
+            "language": "Español",
+            "fluency": "Nativo"
         },
         {
-            "language": "English",
-            "fluency": "Basic"
+            "language": "Inglés",
+            "fluency": "B2 - Intermedio Alto"
         }
     ],
     "interests": [
@@ -295,14 +245,14 @@
     ],
     "projects": [
         {
-            "name": "Landing Obras360",
+            "name": "YoMeEncargo",
             "isActive": true,
-            "description": "Landing Page para presentar el software Obras360 by Austrum.",
+            "description": "Aplicación web progresiva para agendar revisiones pre-compra con mecánicos de confianza.",
             "highlights": [
                 "Implementación de diseño responsivo.",
-                "Optimización de rendimiento web."
+                "Acceso a mecánicos de confianza fácil y rápido."
             ],
-            "url": "https://obras360.netlify.app/"
+            "url": "https://yme-frontend.onrender.com"
         },
         {
             "name": "Portafolio Minimalista",
@@ -314,17 +264,6 @@
             ],
             "url": "https://gcruces.netlify.app/",
             "github": "https://github.com/gcruces95/minimalist-portfolio-json"
-        },
-        {
-            "name": "PIDU_UTECH",
-            "isActive": false,
-            "description": "Tesis: Plataforma de gestión de desafíos de programación mediante interfaz gráfica utilizando Blockly.",
-            "highlights": [
-                "Gestión de desafíos de programación en línea.",
-                "Enfoque en la educación y aprendizaje interactivo."
-            ],
-            "url": "https://github.com/gcruces95/pidu",
-            "github": "https://github.com/gcruces95/pidu"
         },
         {
             "name": "Próximamente...",

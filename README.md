@@ -37,7 +37,7 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ## 🚀 Empezar
 
-### 1. Clona este [repositorio](https://github.com/gcruces95/minimalist-portfolio-json)
+### 1. Clona este [repositorio](https://github.com/JuanLpz29/minimalist-portfolio)
 
 ### 2. Añade tu contenido:
 Edita el archivo `cv.json` para crear tu propio Portafolio/CV imprimible.

@@ -4,3 +4,4 @@ export { default as Experience } from "./Experience.astro";
 export { default as Education } from "./Education.astro";
 export { default as Skills } from "./Skills.astro";
 export { default as Projects } from "./Projects.astro";
+export { default as Languages } from "./Languages.astro";
