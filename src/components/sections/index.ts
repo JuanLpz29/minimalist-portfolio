@@ -5,3 +5,4 @@ export { default as Education } from "./Education.astro";
 export { default as Skills } from "./Skills.astro";
 export { default as Projects } from "./Projects.astro";
 export { default as Languages } from "./Languages.astro";
+export { default as Resume } from "./Resume.astro";

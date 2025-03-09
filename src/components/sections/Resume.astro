@@ -1,0 +1,26 @@
+---
+import Section from "../Section.astro";
+---
+
+<Section title="Currículum Vitae">
+    <p>Puedes acceder a mi currículum vitae haciendo clic en el siguiente botón:</p>
+    <a href="/cv/CV_JLM.pdf" target="_blank" class="download-link">Ver CV</a>
+</Section>
+
+<style>
+    .download-link {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: rgb(166, 177, 184);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        border: 2px solid rgb(0, 0, 0); /* Added border color */
+        font-weight: semibold; /* Make the text bold */
+    }
+
+    .download-link:hover {
+        background-color: #005fa3;
+    }
+</style>
