@@ -6,7 +6,7 @@
         "email": "juanlpez29@gmail.com",
         "phone": "+569 86907555",
         "url": "",
-        "summary": "Soy Egresado de Ingeniería Civil en Informática de la Universidad Austral de Chile, con interés en oportunidades laborales para impulsar mi carrera como profesional de la informática. Poseo experiencia en trabajo colaborativo en entornos multidisciplinarios, con aptitudes e interés en el desarrollo de software y la automatización de procesos de ingeniería.",
+        "summary": "Soy egresado de Ingeniería Civil en Informática de la Universidad Austral de Chile y actualmente estoy en búsqueda de oportunidades laborales para impulsar mi carrera como profesional de la informática. En el pasado, he tenido la oportunidad de trabajar como supervisor en diversas áreas, desde empresas agrícolas hasta cadenas de comida rápida, donde también he gestionado inventarios y personal. Me interesa mucho el trabajo colaborativo en entornos multidisciplinarios, pues considero que es una excelente oportunidad para aprovechar mi experiencia en el desarrollo de software y la automatización de procesos de ingeniería.",
         "location": {
             "address": "",
             "postalCode": "9090391",
@@ -54,32 +54,6 @@
 				"Ayudé a gestionar y planificar actividades correspondientes a la postulación de fondos como CORFO."
 			],
 			"location": "Valdivia, Región de Los Ríos, Chile"
-		},
-        {
-			"name": "Multimarcas Doggis",
-			"position": "Encargado de turno",
-			"url": null,
-			"startDate": "2021-01-02",
-			"endDate": "2021-03-01",
-			"summary": "Encargado de dirigir tareas del personal, manejo de inventario y atención de público en el local.",
-			"highlights": [
-				"Control de inventario.",
-				"Supervisión del personal."
-			],
-			"location": "Osorno, Región de Los Lagos, Chile"
-		},
-        {
-			"name": "Agrícola el Pampino",
-			"position": "Supervisor",
-			"url": null,
-			"startDate": "2021-01-02",
-			"endDate": "2021-03-01",
-			"summary": "Estuve a cargo de supervisar a los cosecheros, asignar tareas en terreno y manejo del grupo de personas en general.",
-			"highlights": [
-				"Gestión de equipos.",
-				"Asignación de tareas."
-			],
-			"location": "Osorno, Región de Los Lagos, Chile"
 		}
 	],
     "volunteer": [
@@ -262,18 +236,8 @@
                 "Diseño limpio y moderno.",
                 "Configurable desde un template JSON."
             ],
-            "url": "https://gcruces.netlify.app/",
-            "github": "https://github.com/gcruces95/minimalist-portfolio-json"
-        },
-        {
-            "name": "Próximamente...",
-            "isActive": false,
-            "description": "Esta sección estará constantemente actualizándose con nuevos proyectos.",
-            "highlights": [
-                "Espacio reservado para futuros proyectos innovadores.",
-                "Mantente atento a las actualizaciones."
-            ],
-            "url": ""
+            "url": "https://juanlpz.netlify.app",
+            "github": "https://github.com/JuanLpz29/minimalist-portfolio"
         }
     ]
 }
