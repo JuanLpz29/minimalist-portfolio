@@ -234,7 +234,7 @@
     "projects": [
         {
             "name": "YoMeEncargo",
-            "isActive": true,
+            "isActive": false,
             "description": "Aplicación web progresiva para agendar revisiones pre-compra con mecánicos de confianza.",
             "highlights": [
                 "Implementación de diseño responsivo.",
