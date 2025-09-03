@@ -6,7 +6,7 @@
         "email": "juanlpez29@gmail.com",
         "phone": "+569 86907555",
         "url": "",
-        "summary": "Soy Ingeniero Civil en Informática titulado de la Universidad Austral de Chile. A lo largo de mi formación he participado en proyectos que combinan diseño, desarrollo y análisis, y también he trabajado en automatización de procesos con herramientas como Excel, VBA y Python. Además, valoro profundamente mis experiencias laborales fuera del ámbito tecnológico, donde desarrollé habilidades clave como la responsabilidad, el liderazgo y el trabajo en equipo, cumpliendo roles de supervisión y atención al cliente. Hoy busco oportunidades donde pueda seguir aprendiendo, aportar valor y crecer junto a personas con propósito.",
+        "summary": "Soy Ingeniero Civil en Informática titulado de la Universidad Austral de Chile. A lo largo de mi formación he participado en proyectos que combinan diseño, desarrollo y análisis. También he trabajado en automatización de procesos con herramientas como Excel, VBA y Python. Además, valoro profundamente mis experiencias laborales fuera del ámbito tecnológico, donde desarrollé habilidades clave como la responsabilidad, el liderazgo y el trabajo en equipo, cumpliendo roles de supervisión y atención al cliente. Hoy busco oportunidades donde pueda seguir aprendiendo, aportar valor y crecer junto a personas con propósito.",
         "location": {
             "address": "",
             "postalCode": "9090391",
@@ -28,6 +28,20 @@
         ]
     },
     "work": [
+        {
+			"name": "NotCo",
+			"position": "AI Intern",
+			"url": "https://notco.com/cl/",
+			"startDate": "2025-19-08",
+			"endDate": "2025-14-11",
+			"summary": "Internship en el área de inteligencia artificial como ingeniero de software.",
+			"highlights": [
+				"Trabajo con tecnologías como Vue.js, Nuxt y FastAPI.",
+				"Implementación de pruebas automatizadas con Cypress y gestión de entornos de desarrollo y despliegue usando Docker.",
+				"Uso de metodología Gitflow, empleando Github Actions para CI/CD y Poetry para la gestión de dependencias en Python."
+			],
+			"location": "Santiago, Región Metropolitana, Chile"
+		},
 		{
 			"name": "Grupo Saesa",
 			"position": "Prácticante área I+D",
@@ -43,7 +57,7 @@
 		},
 		{
 			"name": "Sophia Technologies, UACH",
-			"position": "Desarrollador de Software",
+			"position": "Prácticante de Desarrollo e Investigación",
 			"url": "https://sophialt.org/",
 			"startDate": "2022-03-01",
 			"endDate": "2022-07-01",
