@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Juan Antonio López Maragaño",
-        "label": "Ingeniero Civil en Informática con interés en áreas como el Desarrollo e Ingeniería de Software, Data Science, Gestión de Proyectos y la Transformación Digital.",
-        "image": "https://avatars.githubusercontent.com/u/43872298?s=400&u=b0125b3c7102da6278cc8c34a84615eb2578fa37&v=4",
+        "label": "Trainee Software Engineer Notco AI Team | Ingeniero Civil en Informática",
+        "image": "/avatar.png",
         "email": "juanlpez29@gmail.com",
         "phone": "+569 86907555",
         "url": "",
-        "summary": "Soy Ingeniero Civil en Informática titulado de la Universidad Austral de Chile. A lo largo de mi formación he participado en proyectos que combinan diseño, desarrollo y análisis. También he trabajado en automatización de procesos con herramientas como Excel, VBA y Python. Además, valoro profundamente mis experiencias laborales fuera del ámbito tecnológico, donde desarrollé habilidades clave como la responsabilidad, el liderazgo y el trabajo en equipo, cumpliendo roles de supervisión y atención al cliente. Hoy busco oportunidades donde pueda seguir aprendiendo, aportar valor y crecer junto a personas con propósito.",
+        "summary": "Soy Ingeniero Civil en Informática y actualmente me desempeño como Software Engineer en el equipo de AI de NotCo. Trabajo en el desarrollo de soluciones full stack aplicadas a productos basados en inteligencia artificial, participando en decisiones técnicas, arquitectura y mejora continua del software. Mi experiencia combina desarrollo backend y frontend, automatización de procesos y trabajo en equipos multidisciplinarios en entornos ágiles. Me interesa construir sistemas escalables y mantenibles, aportar valor real a los productos en los que participo y seguir profundizando en ingeniería de software con foco en sistemas basados en IA.",
         "location": {
             "address": "",
             "postalCode": "9090391",
@@ -30,15 +30,18 @@
     "work": [
         {
 			"name": "NotCo",
-			"position": "AI Intern",
+			"position": "Trainee Software Engineer",
 			"url": "https://notco.com/cl/",
 			"startDate": "2025-08-19",
-			"endDate": "2025-11-14",
-			"summary": "Internship en el área de inteligencia artificial como ingeniero de software.",
+			"endDate": "2026-03-17",
+			"summary": "Trabajo como Software Engineer en el equipo de AI del área Tech, contribuyendo al desarrollo y evolución de soluciones full stack que soportan productos basados en inteligencia artificial. Participo en la implementación de nuevas funcionalidades, mejora de arquitectura y fortalecimiento de procesos de desarrollo y despliegue continuo.",
 			"highlights": [
-				"Trabajo con tecnologías como Vue.js, Nuxt y FastAPI.",
-				"Implementación de pruebas automatizadas con Cypress y gestión de entornos de desarrollo y despliegue usando Docker.",
-				"Uso de metodología Gitflow, empleando Github Actions para CI/CD y Poetry para la gestión de dependencias en Python."
+				"Desarrollo de funcionalidades full stack utilizando Vue.js, Nuxt y FastAPI.",
+				"Implementación de pruebas automatizadas con Cypress para asegurar calidad y estabilidad del producto.",
+				"Gestión de entornos de desarrollo y despliegue mediante Docker y Docker Compose.",
+                "Integración y mantenimiento de pipelines CI/CD usando GitHub Actions.",
+                "Trabajo bajo metodología Gitflow y gestión de dependencias con Poetry en entornos Python.",
+                "Colaboración en revisiones de código y discusiones técnicas dentro de un equipo multidisciplinario ágil."
 			],
 			"location": "Santiago, Región Metropolitana, Chile"
 		},
@@ -206,6 +209,36 @@
                 "Frontend",
                 "JavaScript Library",
                 "UI"
+            ]
+        },
+        {
+            "name": "Vue",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Frontend",
+                "JavaScript Framework",
+                "UI"
+            ]
+        },
+        {
+            "name": "FastAPI",
+            "level": "Avanzado",
+            "keywords": [
+                "Desarrollo Web",
+                "Backend",
+                "Python",
+                "API"
+            ]
+        },
+        {
+            "name": "Docker",
+            "level": "Avanzado",
+            "keywords": [
+                "Contenedores",
+                "DevOps",
+                "Despliegue",
+                "Entornos"
             ]
         }
     ],

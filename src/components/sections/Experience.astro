@@ -42,7 +42,7 @@ import { work } from "@cv/"
                     </header>
 
                     <footer>
-                    <p>{summary}</p>
+                    <p class="summary">{summary}</p>
                     {highlights.map((highlight) => {
                         return <span>{highlight}</span>
                     })}
@@ -122,6 +122,11 @@ import { work } from "@cv/"
 
     [data-title] {
         position: relative;
+    }
+
+    footer .summary {
+        text-align: justify;
+        text-wrap: pretty;
     }
 
     footer span {

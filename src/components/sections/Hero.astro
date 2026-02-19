@@ -23,13 +23,26 @@ const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
 const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
+
+// Line break after "Team": split label by " | " (first line ends with Team, second line is the rest)
+const labelLines = label.includes(" | ") ? label.split(" | ") : null;
 ---
 
 <Section>
     <div class="container">
         <div class="info">
             <h1>{name}</h1>
-            <h2>{label}</h2>
+            <h2>
+                {labelLines
+                    ? (
+                        <>
+                            {labelLines[0]}
+                            <br />
+                            {labelLines[1]}
+                        </>
+                    )
+                    : label}
+            </h2>
             <span>
                 <WorldMap />
                 {city}, {region}
