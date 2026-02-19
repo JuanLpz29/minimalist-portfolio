@@ -10,7 +10,7 @@ Basado en el diseño de <a href="https://github.com/BartoszJarocki/cv">Bartosz J
 
 ## 🚀 Estructura del proyecto
 
-Inside of your Astro project, you'll see the following folders and files:
+Dentro de tu proyecto Astro, verás la siguiente estructura de carpetas y archivos:
 
 ```text
 /
@@ -56,7 +56,7 @@ Abre [**http://localhost:4321**](http://localhost:4321/) en tu navegador para ve
 
 ## 🧞 Commands
 
-All commands are run from the root of the project, from a terminal:
+Todos los comandos se ejecutan desde la raíz del proyecto desde una terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
