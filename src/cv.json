@@ -1,16 +1,16 @@
 {
     "basics": {
         "name": "Juan Antonio López Maragaño",
-        "label": "Trainee Software Engineer Notco AI Team | Ingeniero Civil en Informática",
+        "label": "Software Engineer Seicho Software Factory | Ingeniero Civil en Informática",
         "image": "/avatar.png",
         "email": "juanlpez29@gmail.com",
         "phone": "+569 86907555",
         "url": "",
-        "summary": "Soy Ingeniero Civil en Informática y actualmente me desempeño como Software Engineer en el equipo de AI de NotCo. Trabajo en el desarrollo de soluciones full stack aplicadas a productos basados en inteligencia artificial, participando en decisiones técnicas, arquitectura y mejora continua del software. Mi experiencia combina desarrollo backend y frontend, automatización de procesos y trabajo en equipos multidisciplinarios en entornos ágiles. Me interesa construir sistemas escalables y mantenibles, aportar valor real a los productos en los que participo y seguir profundizando en ingeniería de software con foco en sistemas basados en IA.",
+        "summary": "Soy Ingeniero Civil en Informática titulado de la Universidad Austral de Chile y actualmente me desempeño como Software Engineer en Seicho Software Factory. Tengo experiencia en desarrollo full stack y en entornos multidisciplinarios de tecnología e innovación, construyendo soluciones escalables y mantenibles con buenas prácticas de ingeniería. Me interesa seguir profundizando en ingeniería de software con foco en inteligencia artificial y arquitectura de sistemas.",
         "location": {
             "address": "",
             "postalCode": "9090391",
-            "city": "Osorno",
+            "city": "Viña del Mar",
             "countryCode": "CL",
             "region": "Chile"
         },
@@ -29,12 +29,26 @@
     },
     "work": [
         {
+            "name": "Seicho Software Factory",
+            "position": "Software Engineer",
+            "url": "",
+            "startDate": "2026-03-01",
+            "endDate": "",
+            "summary": "Desarrollo de soluciones full stack participando en distintos proyectos con foco en calidad técnica y entrega de valor.",
+            "highlights": [
+                "Desarrollo de soluciones full stack utilizando Next.js y NestJS.",
+                "Trabajo directo con clientes para levantamiento de requerimientos y definición técnica.",
+                "Participación en decisiones técnicas y en la evolución continua de los proyectos."
+            ],
+            "location": "Chile"
+        },
+        {
 			"name": "NotCo",
 			"position": "Trainee Software Engineer",
 			"url": "https://notco.com/cl/",
 			"startDate": "2025-08-19",
 			"endDate": "2026-03-17",
-			"summary": "Trabajo como Software Engineer en el equipo de AI del área Tech, contribuyendo al desarrollo y evolución de soluciones full stack que soportan productos basados en inteligencia artificial. Participo en la implementación de nuevas funcionalidades, mejora de arquitectura y fortalecimiento de procesos de desarrollo y despliegue continuo.",
+			"summary": "Trabajé como Software Engineer en el equipo de AI del área Tech, contribuyendo al desarrollo y evolución de soluciones full stack que soportan productos basados en inteligencia artificial. Participo en la implementación de nuevas funcionalidades, mejora de arquitectura y fortalecimiento de procesos de desarrollo y despliegue continuo.",
 			"highlights": [
 				"Desarrollo de funcionalidades full stack utilizando Vue.js, Nuxt y FastAPI.",
 				"Implementación de pruebas automatizadas con Cypress para asegurar calidad y estabilidad del producto.",
