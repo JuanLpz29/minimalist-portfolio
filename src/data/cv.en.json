@@ -83,6 +83,13 @@
     ],
     "projects": [
         {
+            "name": "This Portfolio",
+            "status": "LIVE",
+            "description": "The site you're looking at right now. Designed and built from scratch with Astro, including the EN/ES i18n routing and content architecture.",
+            "url": "https://juanlpz.netlify.app",
+            "github": "https://github.com/JuanLpz29/minimalist-portfolio"
+        },
+        {
             "name": "Las Recetas de Juanín",
             "status": "LIVE",
             "description": "A small personal recipe collection built to organize and share the recipes I actually cook.",
