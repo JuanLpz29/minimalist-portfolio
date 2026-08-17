@@ -1,0 +1,130 @@
+{
+    "basics": {
+        "name": "Juan Antonio López Maragaño",
+        "label": "Software Engineer",
+        "tagline": "Full‑Stack · Applied AI",
+        "pitch": "I build and evolve software products across frontend, backend and integrations. I have hands-on experience on AI-driven products and existing codebases.",
+        "image": "/avatar.png",
+        "email": "juanlpz29@gmail.com",
+        "phone": "+56986907555",
+        "location": { "city": "Viña del Mar", "region": "Chile" },
+        "profiles": [
+            { "network": "LinkedIn", "url": "https://linkedin.com/in/juanlpzm/" },
+            { "network": "GitHub", "url": "https://github.com/JuanLpz29" }
+        ],
+        "summary": "Civil Engineer in Computer Science from Universidad Austral de Chile and Software Engineer with professional experience across frontend, backend, integrations and automation. I've worked on maintaining and extending existing systems as well as building new solutions end-to-end, with experience on AI-driven products. I'm focused on full-stack development, scalable systems, software architecture and applied AI."
+    },
+    "languages": [
+        { "name": "Spanish (native)" },
+        { "name": "English (C1)", "certificate": "/certificates/EF_SET_Certificate.pdf" }
+    ],
+    "work": [
+        {
+            "name": "Seicho Software Factory",
+            "position": "Software Engineer",
+            "startDate": "2026-03-01",
+            "endDate": null,
+            "summary": "Full-stack engineering across multiple client products. Onboarding into unfamiliar codebases and shipping new features end-to-end.",
+            "highlights": [
+                "Built a full-stack raffle platform end-to-end with Next.js, NestJS and TypeScript, from requirements through client demo.",
+                "Worked on tax and expense automation, integrating with Chilean tax authority (SII) systems and invoicing flows.",
+                "Direct client contact: requirements gathering, demos and technical decision-making."
+            ]
+        },
+        {
+            "name": "NotCo",
+            "position": "Software Engineer — AI Team (Trainee)",
+            "startDate": "2025-08-19",
+            "endDate": "2026-03-17",
+            "summary": "Full-stack engineering on AI-driven, food-tech products within a multidisciplinary Tech team.",
+            "highlights": [
+                "Built and maintained features with Vue.js, Nuxt and FastAPI.",
+                "Improved CI/CD pipelines with GitHub Actions and Docker.",
+                "Participated in architecture discussions and code reviews."
+            ]
+        },
+        {
+            "name": "Final Degree Project",
+            "position": "Full-Stack Developer",
+            "startDate": "2024-09-01",
+            "endDate": "2025-02-01",
+            "summary": "Designed and built a full-stack Progressive Web App as my thesis project.",
+            "highlights": [
+                "React + TypeScript frontend, Node.js backend, PostgreSQL, Docker.",
+                "Focused on scalability and user experience."
+            ]
+        }
+    ],
+    "earlierExperience": [
+        { "name": "Grupo Saesa", "position": "Innovation & Engineering Intern", "period": "2024" },
+        { "name": "Sophia Technologies", "position": "Software Development Intern", "period": "2023" }
+    ],
+    "selectedWork": [
+        {
+            "name": "Full-Stack Raffle Platform",
+            "stack": ["Next.js", "NestJS", "TypeScript", "Fly.io"],
+            "description": "Developed a full-stack raffle platform almost end-to-end, from requirements and business logic to frontend/backend implementation and client demos. Gained hands-on exposure to deployment on Fly.io."
+        },
+        {
+            "name": "High-Volume Document Processing",
+            "stack": ["TypeScript", "Backend", "Data Processing"],
+            "description": "Contributed to a proof of concept designed to process millions of professional fee receipt records within a few hours, tackling performance and large-scale processing challenges."
+        },
+        {
+            "name": "Tax & Expense Automation",
+            "stack": ["Backend", "Integrations", "Automation"],
+            "description": "Built integrations and automation involving Chilean tax systems (SII), document processing, invoicing and expense reporting on an existing product."
+        },
+        {
+            "name": "AI-Driven Products — NotCo",
+            "stack": ["Vue", "Nuxt", "FastAPI", "Docker", "GitHub Actions"],
+            "description": "Contributed to full-stack development of AI-driven products within the food-tech industry."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Las Recetas de Juanín",
+            "status": "LIVE",
+            "description": "A small personal recipe collection built to organize and share the recipes I actually cook.",
+            "url": "https://juanlpz29.github.io/",
+            "github": "https://github.com/JuanLpz29/juanlpz29.github.io"
+        },
+        {
+            "name": "whetstone",
+            "status": "IN DEVELOPMENT",
+            "description": "A personal deliberate-practice program in TypeScript. Spaced-repetition drills and a documented full-stack capstone, built without AI assistance by design.",
+            "github": "https://github.com/JuanLpz29/whetstone"
+        },
+        {
+            "name": "YoMeEncargo",
+            "status": "ARCHIVED",
+            "description": "Progressive Web App from my final degree project, for booking pre-purchase vehicle inspections with trusted mechanics.",
+            "url": "https://yme-frontend.onrender.com",
+            "github": "https://github.com/JuanLpz29/Dev_YoMeEncargo"
+        },
+        {
+            "name": "Books Register",
+            "status": "IN DEVELOPMENT",
+            "description": "A small FastAPI + Nuxt tool to log the books I read and track how long each one takes.",
+            "github": "https://github.com/JuanLpz29/books-register"
+        },
+        {
+            "name": "Money Manager",
+            "status": "IN DEVELOPMENT",
+            "description": "An early-stage personal finance tracker, still in early exploration.",
+            "private": true
+        }
+    ],
+    "stack": {
+        "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
+        "frontend": ["Next.js", "React", "Vue.js", "Nuxt"],
+        "backend": ["NestJS", "Node.js", "FastAPI"],
+        "databases": ["PostgreSQL"],
+        "devops": ["Docker", "GitHub Actions", "Fly.io"],
+        "tools": ["Git", "GitHub", "Claude", "Cursor"]
+    },
+    "cv": {
+        "es": "/cv/CV_Juan_Lopez.pdf",
+        "en": "/cv/English_CV_Juan_Lopez.pdf"
+    }
+}

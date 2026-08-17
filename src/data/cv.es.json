@@ -1,0 +1,130 @@
+{
+    "basics": {
+        "name": "Juan Antonio López Maragaño",
+        "label": "Software Engineer",
+        "tagline": "Full‑Stack · IA Aplicada",
+        "pitch": "Construyo y evoluciono productos de software en frontend, backend e integraciones. Tengo experiencia práctica en productos basados en IA y sistemas existentes.",
+        "image": "/avatar.png",
+        "email": "juanlpz29@gmail.com",
+        "phone": "+56986907555",
+        "location": { "city": "Viña del Mar", "region": "Chile" },
+        "profiles": [
+            { "network": "LinkedIn", "url": "https://linkedin.com/in/juanlpzm/" },
+            { "network": "GitHub", "url": "https://github.com/JuanLpz29" }
+        ],
+        "summary": "Ingeniero Civil en Informática de la Universidad Austral de Chile y Software Engineer con experiencia profesional en frontend, backend, integraciones y automatización. He trabajado tanto manteniendo y evolucionando sistemas existentes como construyendo soluciones nuevas de punta a punta, con experiencia en productos basados en IA. Me enfoco en desarrollo full-stack, sistemas escalables, arquitectura de software e IA aplicada."
+    },
+    "languages": [
+        { "name": "Español (nativo)" },
+        { "name": "Inglés (C1)", "certificate": "/certificates/EF_SET_Certificate.pdf" }
+    ],
+    "work": [
+        {
+            "name": "Seicho Software Factory",
+            "position": "Software Engineer",
+            "startDate": "2026-03-01",
+            "endDate": null,
+            "summary": "Ingeniería full-stack en múltiples productos de cliente. Me incorporo a codebases desconocidas y llevo funcionalidades nuevas de punta a punta.",
+            "highlights": [
+                "Desarrollé una plataforma de sorteos de punta a punta con Next.js, NestJS y TypeScript, desde los requerimientos hasta la demo con cliente.",
+                "Trabajé en automatización tributaria y de gastos, integrando sistemas del SII y flujos de facturación.",
+                "Contacto directo con clientes: levantamiento de requerimientos, demos y decisiones técnicas."
+            ]
+        },
+        {
+            "name": "NotCo",
+            "position": "Software Engineer — AI Team (Trainee)",
+            "startDate": "2025-08-19",
+            "endDate": "2026-03-17",
+            "summary": "Ingeniería full-stack en productos basados en IA para la industria alimentaria, dentro de un equipo Tech multidisciplinario.",
+            "highlights": [
+                "Desarrollé y mantuve funcionalidades con Vue.js, Nuxt y FastAPI.",
+                "Mejoré pipelines de CI/CD con GitHub Actions y Docker.",
+                "Participé en discusiones de arquitectura y revisiones de código."
+            ]
+        },
+        {
+            "name": "Proyecto de Título",
+            "position": "Full-Stack Developer",
+            "startDate": "2024-09-01",
+            "endDate": "2025-02-01",
+            "summary": "Diseñé y construí una Progressive Web App full-stack como proyecto de título.",
+            "highlights": [
+                "Frontend en React + TypeScript, backend en Node.js, PostgreSQL, Docker.",
+                "Foco en escalabilidad y experiencia de usuario."
+            ]
+        }
+    ],
+    "earlierExperience": [
+        { "name": "Grupo Saesa", "position": "Práctica en Innovación e Ingeniería", "period": "2024" },
+        { "name": "Sophia Technologies", "position": "Práctica en Desarrollo de Software", "period": "2023" }
+    ],
+    "selectedWork": [
+        {
+            "name": "Plataforma de Sorteos Full-Stack",
+            "stack": ["Next.js", "NestJS", "TypeScript", "Fly.io"],
+            "description": "Desarrollé una plataforma de sorteos casi de punta a punta, desde requerimientos y lógica de negocio hasta la implementación frontend/backend y demos con cliente. Gané experiencia práctica en despliegue sobre Fly.io."
+        },
+        {
+            "name": "Procesamiento Masivo de Documentos",
+            "stack": ["TypeScript", "Backend", "Data Processing"],
+            "description": "Participé en una prueba de concepto diseñada para procesar millones de registros de boletas de honorarios en pocas horas, abordando desafíos de performance y procesamiento a gran escala."
+        },
+        {
+            "name": "Automatización Tributaria y de Gastos",
+            "stack": ["Backend", "Integraciones", "Automatización"],
+            "description": "Construí integraciones y automatización relacionadas con sistemas tributarios chilenos (SII), procesamiento de documentos, facturación y rendición de gastos sobre un producto existente."
+        },
+        {
+            "name": "Productos con IA — NotCo",
+            "stack": ["Vue", "Nuxt", "FastAPI", "Docker", "GitHub Actions"],
+            "description": "Contribuí al desarrollo full-stack de productos basados en inteligencia artificial dentro de la industria alimentaria."
+        }
+    ],
+    "projects": [
+        {
+            "name": "Las Recetas de Juanín",
+            "status": "LIVE",
+            "description": "Un recetario personal para organizar y compartir las recetas que realmente cocino.",
+            "url": "https://juanlpz29.github.io/",
+            "github": "https://github.com/JuanLpz29/juanlpz29.github.io"
+        },
+        {
+            "name": "whetstone",
+            "status": "IN DEVELOPMENT",
+            "description": "Un programa personal de práctica deliberada en TypeScript. Drills con repetición espaciada y un capstone full-stack documentado, construido sin asistencia de IA a propósito.",
+            "github": "https://github.com/JuanLpz29/whetstone"
+        },
+        {
+            "name": "YoMeEncargo",
+            "status": "ARCHIVED",
+            "description": "Progressive Web App de mi proyecto de título, para agendar revisiones pre-compra con mecánicos de confianza.",
+            "url": "https://yme-frontend.onrender.com",
+            "github": "https://github.com/JuanLpz29/Dev_YoMeEncargo"
+        },
+        {
+            "name": "Books Register",
+            "status": "IN DEVELOPMENT",
+            "description": "Una pequeña herramienta con FastAPI + Nuxt para registrar los libros que leo y cuánto tiempo me toma cada uno.",
+            "github": "https://github.com/JuanLpz29/books-register"
+        },
+        {
+            "name": "Money Manager",
+            "status": "IN DEVELOPMENT",
+            "description": "Un gestor de finanzas personales en etapa temprana, todavía en exploración.",
+            "private": true
+        }
+    ],
+    "stack": {
+        "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
+        "frontend": ["Next.js", "React", "Vue.js", "Nuxt"],
+        "backend": ["NestJS", "Node.js", "FastAPI"],
+        "databases": ["PostgreSQL"],
+        "devops": ["Docker", "GitHub Actions", "Fly.io"],
+        "tools": ["Git", "GitHub", "Claude", "Cursor"]
+    },
+    "cv": {
+        "es": "/cv/CV_Juan_Lopez.pdf",
+        "en": "/cv/English_CV_Juan_Lopez.pdf"
+    }
+}
