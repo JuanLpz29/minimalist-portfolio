@@ -1,37 +1,39 @@
 ---
-import { basics } from "@cv/"
+import type { Lang } from "@/i18n/ui";
 
 interface Props {
-	title: string
-	}
+	title: string;
+	description: string;
+	lang: Lang;
+	path: string;
+}
 
-	const { title } = Astro.props
+const { title, description, lang, path } = Astro.props;
+const site = "https://juanlpz.netlify.app";
+const altPath = lang === "en" ? `/es${path}` : path.replace(/^\/es/, "") || "/";
+---
 
-	const { image, summary, url } = basics
-	---
-
-	<!doctype html>
-	<html lang="es">
+<!doctype html>
+<html lang={lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<title>{title}</title>
-		<meta name="description" content={summary} />
+		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="preload" as="image" href={image} />
+		<link rel="preload" as="image" href="/avatar.png" />
+		<link rel="canonical" href={`${site}${path}`} />
+		<link rel="alternate" hreflang="en" href={`${site}${lang === "en" ? path : altPath}`} />
+		<link rel="alternate" hreflang="es" href={`${site}${lang === "es" ? path : altPath}`} />
 
-		<meta property="og:url" content={url} />
+		<meta property="og:url" content={`${site}${path}`} />
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content={title} />
-		<meta property="og:description" content={summary} />
-		<meta property="og:image" content="" />
+		<meta property="og:description" content={description} />
 
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="twitter:domain" content={url.split("//")[1] ?? ''} />
-		<meta property="twitter:url" content={url} />
+		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:title" content={title} />
-		<meta name="twitter:description" content={summary} />
-		<meta name="twitter:image" content="" />
+		<meta name="twitter:description" content={description} />
 	</head>
 	<body>
 		<slot />
@@ -41,12 +43,12 @@ interface Props {
 <style is:global>
 	html {
 		font-family:
-		Menlo,
-		Monaco,
-		Lucida Console,
-		"Courier New",
-		Courier,
-		monospace;
+			Menlo,
+			Monaco,
+			Lucida Console,
+			"Courier New",
+			Courier,
+			monospace;
 		background: #fff;
 		letter-spacing: -0.025rem;
 	}
@@ -79,17 +81,17 @@ interface Props {
 	h4 {
 		margin: 0;
 		font-family:
-		system-ui,
-		-apple-system,
-		BlinkMacSystemFont,
-		"Segoe UI",
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		"Open Sans",
-		"Helvetica Neue",
-		sans-serif;
+			system-ui,
+			-apple-system,
+			BlinkMacSystemFont,
+			"Segoe UI",
+			Roboto,
+			Oxygen,
+			Ubuntu,
+			Cantarell,
+			"Open Sans",
+			"Helvetica Neue",
+			sans-serif;
 	}
 
 	p {
@@ -106,19 +108,19 @@ interface Props {
 
 	@media print {
 		.no-print {
-		display: none !important;
+			display: none !important;
 		}
 
 		.print {
-		display: block !important;
+			display: block !important;
 		}
 
 		astro-dev-toolbar {
-		display: none !important;
+			display: none !important;
 		}
 
 		article {
-		break-inside: avoid;
+			break-inside: avoid;
 		}
 	}
 </style>

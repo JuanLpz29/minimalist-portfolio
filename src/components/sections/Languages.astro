@@ -1,64 +1,63 @@
 ---
 import Section from "../Section.astro";
-import { languages } from "@cv/";
+
+interface Props {
+	cv: any;
+	t: any;
+}
+
+const { cv, t } = Astro.props;
+const { languages } = cv;
 ---
 
-<Section title="Idiomas">
-    <ul>
-        {languages.map(({ language, fluency }) => (
-            <li>
-                <article>
-                    <header>
-                        <h3>{language}</h3>
-                        <p>{fluency}</p>
-                    </header>
-                </article>
-            </li>
-        ))}
-    </ul>
+<Section title={t.languages.title}>
+	<ul>
+		{
+			languages.map(({ name, certificate }: any) => (
+				<li>
+					{name}
+					{certificate && (
+						<a href={certificate} target="_blank" rel="noopener noreferrer">
+							{t.languages.certificate} ↗
+						</a>
+					)}
+				</li>
+			))
+		}
+	</ul>
 </Section>
 
 <style>
-    ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-        margin-inline: -16px;
-    }
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 8px;
+	}
 
-    article {
-        border-radius: 8px;
-        border: 1px solid #f2f2f2;
-        gap: 16px;
-        display: flex;
-        flex-direction: column;
-        padding: 16px;
-        height: 100%;
-    }
+	li {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		background: #f4f4f4;
+		color: #222;
+		font-size: 0.8rem;
+		font-weight: 500;
+		padding: 0.3rem 0.75rem;
+		border-radius: 6px;
+	}
 
-    article header {
-        flex: 1;
-    }
+	li a {
+		color: #666;
+		font-size: 0.7rem;
+		font-weight: 600;
+		background: #fff;
+		border-radius: 4px;
+		padding: 2px 6px;
+		transition: all 0.15s ease;
+	}
 
-    article h3 {
-        margin-bottom: 4px;
-    }
-
-    article p {
-        font-size: 0.75rem;
-        line-height: 1.2rem;
-        margin-bottom: 4px;
-    }
-
-    @media (width <= 700px) {
-        ul {
-            margin-inline: 0px;
-        }
-
-        article {
-            border: none;
-            box-shadow: 0 1px 1px #f2f2f2;
-            padding: 0 0 16px 0;
-        }
-    }
+	li a:hover {
+		background: #111;
+		color: #fff;
+	}
 </style>

@@ -1,146 +1,162 @@
 ---
-import GitHub from "@/icons/GitHub.astro"
-import Section from "../Section.astro"
+import GitHub from "@/icons/GitHub.astro";
+import Section from "../Section.astro";
 
-import { projects } from "@cv/"
+interface Props {
+	cv: any;
+	t: any;
+}
+
+const { cv, t } = Astro.props;
+const { projects } = cv;
+
+const STATUS_CLASS: Record<string, string> = {
+	LIVE: "status-live",
+	"IN DEVELOPMENT": "status-dev",
+	MVP: "status-dev",
+	EXPERIMENT: "status-experiment",
+	ARCHIVED: "status-archived",
+};
 ---
 
-<Section title="Proyectos">
-    <ul>
-        {
-        projects.map(
-            ({ url, description, highlights, name, isActive, github }) => {
-            return (
-                <li>
-                <article>
-                    <header>
-                    <h3>
-                        <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
-                        {name}
-                        </a>
-                        {isActive && <span>•</span>}
-                        {github && (
-                        <a
-                            class="github-code-link"
-                            href={github}
-                            target="_blank"
-                            title={`Ver código fuente del proyecto ${name}`}
-                        >
-                            <GitHub />
-                        </a>
-                        )}
-                    </h3>
-                    <p>{description}</p>
-                    </header>
-                    <footer>
-                    {highlights.map((highlight) => {
-                        return <span>{highlight}</span>
-                    })}
-                    </footer>
-                </article>
-                </li>
-            )
-            }
-        )
-        }
-    </ul>
+<Section title={t.projects.title}>
+	<ul>
+		{
+			projects.map(({ name, status, description, url, github, private: isPrivate }: any) => (
+				<li>
+					<article>
+						<header>
+							<h3>{name}</h3>
+							<span class={`status ${STATUS_CLASS[status] ?? ""}`}>{status}</span>
+						</header>
+						<p>{description}</p>
+						<footer>
+							{url && (
+								<a href={url} target="_blank" rel="noopener noreferrer">
+									{t.projects.liveDemo}
+								</a>
+							)}
+							{github && (
+								<a href={github} target="_blank" rel="noopener noreferrer" class="code-link">
+									<GitHub /> {t.projects.code}
+								</a>
+							)}
+							{isPrivate && <span class="private-badge">{t.projects.privateBadge}</span>}
+						</footer>
+					</article>
+				</li>
+			))
+		}
+	</ul>
 </Section>
 
 <style>
-    ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 1rem;
-        margin-inline: -16px;
-    }
+	ul {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+		gap: 1rem;
+		margin-inline: -16px;
+	}
 
-    article {
-        border-radius: 8px;
-        border: 1px solid #f2f2f2;
-        gap: 16px;
-        display: flex;
-        flex-direction: column;
-        padding: 16px;
-        height: 100%;
-    }
+	article {
+		border-radius: 8px;
+		border: 1px solid #f2f2f2;
+		gap: 12px;
+		display: flex;
+		flex-direction: column;
+		padding: 16px;
+		height: 100%;
+	}
 
-    article header {
-        flex: 1;
-    }
+	article header {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+	}
 
-    article h3 {
-        margin-bottom: 4px;
-    }
+	article h3 {
+		font-size: 1rem;
+		font-weight: 500;
+		color: #111;
+	}
 
-    article a {
-        color: #111;
-    }
+	.status {
+		font-size: 0.6rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		border-radius: 6px;
+		padding: 2px 8px;
+		white-space: nowrap;
+	}
 
-    article a:hover {
-        text-decoration: underline;
-    }
+	.status-live {
+		color: #1e7a3c;
+		background: #e8f7ed;
+	}
 
-    article p {
-        font-size: 0.75rem;
-        line-height: 1.2rem;
-        margin-bottom: 4px;
-    }
+	.status-dev {
+		color: #9a6b00;
+		background: #fdf3d9;
+	}
 
-    article h3 span {
-        color: rgb(0, 188, 47);
-        animation-name: flicker;
-        animation-duration: 3s;
-        animation-timing-function: ease-in;
-        animation-iteration-count: infinite;
-    }
+	.status-experiment {
+		color: #555;
+		background: #f0f0f0;
+	}
 
-    footer {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-        font-size: 0.6rem;
-    }
+	.status-archived {
+		color: #888;
+		background: #f5f5f5;
+	}
 
-    footer span {
-        border-radius: 6px;
-        background: #eee;
-        color: #444;
-        font-size: 0.6rem;
-        font-weight: 500;
-        padding: 0.2rem 0.6rem;
-    }
+	article p {
+		font-size: 0.75rem;
+		line-height: 1.2rem;
+	}
 
-    .github-code-link {
-        margin-left: 5px;
-    }
+	footer {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-top: auto;
+		font-size: 0.75rem;
+	}
 
-    @keyframes flicker {
-        0% {
-        opacity: 1;
-        }
-        50% {
-        opacity: 0.25;
-        }
-        100% {
-        opacity: 1;
-        }
-    }
+	footer a {
+		display: inline-flex;
+		align-items: center;
+		gap: 4px;
+		color: #111;
+		font-weight: 500;
+		background: #f4f4f4;
+		border-radius: 6px;
+		padding: 4px 10px;
+		transition: background 0.15s ease;
+	}
 
-    @media (width <= 700px) {
-        ul {
-        margin-inline: 0px;
-        }
+	footer a:hover {
+		background: #e8e8e8;
+	}
 
-        article {
-        border: none;
-        box-shadow: 0 1px 1px #f2f2f2;
-        padding: 0 0 16px 0;
-        }
-    }
+	.private-badge {
+		font-size: 0.65rem;
+		color: #999;
+		font-style: italic;
+	}
 
-    @media print {
-        article h3 span {
-        animation-name: none;
-        }
-    }
+	@media (width <= 700px) {
+		ul {
+			margin-inline: 0px;
+			grid-template-columns: 1fr;
+		}
+
+		article {
+			border: none;
+			box-shadow: 0 1px 1px #f2f2f2;
+			padding: 0 0 16px 0;
+		}
+	}
 </style>

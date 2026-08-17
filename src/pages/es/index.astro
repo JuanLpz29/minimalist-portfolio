@@ -4,10 +4,10 @@ import KeyBoardManager from "@/components/KeyBoardManager.astro";
 import LanguageSwitcher from "@/components/LanguageSwitcher.astro";
 import { Hero, About, Experience, SelectedWork, Skills, Languages, Projects, Contact } from "@/components/sections";
 
-import cv from "@/data/cv.en.json";
+import cv from "@/data/cv.es.json";
 import { useTranslations } from "@/i18n/ui";
 
-const lang = "en";
+const lang = "es";
 const t = useTranslations(lang);
 const { name, label, tagline, summary } = cv.basics;
 ---
@@ -16,7 +16,7 @@ const { name, label, tagline, summary } = cv.basics;
 	title={`${name} — ${label} · ${tagline}`}
 	description={summary}
 	lang={lang}
-	path="/"
+	path="/es/"
 >
 	<LanguageSwitcher lang={lang} />
 	<main>
