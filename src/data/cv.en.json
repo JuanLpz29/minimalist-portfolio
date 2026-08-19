@@ -12,7 +12,7 @@
             { "network": "LinkedIn", "url": "https://linkedin.com/in/juanlpzm/" },
             { "network": "GitHub", "url": "https://github.com/JuanLpz29" }
         ],
-        "summary": "Civil Engineer in Computer Science from Universidad Austral de Chile and Software Engineer with professional experience across frontend, backend, integrations and automation. I've worked on maintaining and extending existing systems as well as building new solutions end-to-end, with experience on AI-driven products. I'm focused on full-stack development, scalable systems, software architecture and applied AI."
+        "summary": "Civil Engineer in Computer Science from Universidad Austral de Chile and Software Engineer with professional experience across frontend, backend, integrations and automation. I've worked both on existing production systems and on building new solutions end-to-end, including AI-driven products, tax and expense automation, and high-volume data processing. I'm particularly interested in software engineering, scalable systems, applied AI and digital transformation."
     },
     "languages": [
         { "name": "Spanish (native)" },
@@ -126,7 +126,7 @@
         "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
         "frontend": ["Next.js", "React", "Vue.js", "Nuxt"],
         "backend": ["NestJS", "Node.js", "FastAPI"],
-        "databases": ["PostgreSQL"],
+        "databases": ["PostgreSQL", "MongoDB"],
         "devops": ["Docker", "GitHub Actions", "Fly.io"],
         "tools": ["Git", "GitHub", "Claude", "Cursor"]
     },

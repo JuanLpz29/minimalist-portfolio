@@ -12,7 +12,7 @@
             { "network": "LinkedIn", "url": "https://linkedin.com/in/juanlpzm/" },
             { "network": "GitHub", "url": "https://github.com/JuanLpz29" }
         ],
-        "summary": "Ingeniero Civil en Informática de la Universidad Austral de Chile y Software Engineer con experiencia profesional en frontend, backend, integraciones y automatización. He trabajado tanto manteniendo y evolucionando sistemas existentes como construyendo soluciones nuevas de punta a punta, con experiencia en productos basados en IA. Me enfoco en desarrollo full-stack, sistemas escalables, arquitectura de software e IA aplicada."
+        "summary": "Ingeniero Civil en Informática de la Universidad Austral de Chile y Software Engineer con experiencia profesional en frontend, backend, integraciones y automatización. He trabajado tanto en sistemas productivos existentes como en la construcción de soluciones nuevas de punta a punta, incluyendo productos basados en IA, automatización tributaria y de gastos, y procesamiento de datos de alto volumen. Me interesa especialmente la ingeniería de software, los sistemas escalables, la IA aplicada y la transformación digital."
     },
     "languages": [
         { "name": "Español (nativo)" },
@@ -126,7 +126,7 @@
         "languages": ["TypeScript", "JavaScript", "Python", "SQL"],
         "frontend": ["Next.js", "React", "Vue.js", "Nuxt"],
         "backend": ["NestJS", "Node.js", "FastAPI"],
-        "databases": ["PostgreSQL"],
+        "databases": ["PostgreSQL", "MongoDB"],
         "devops": ["Docker", "GitHub Actions", "Fly.io"],
         "tools": ["Git", "GitHub", "Claude", "Cursor"]
     },

@@ -1,3 +1,9 @@
+## 🌐 Demo
+
+**[https://juanlpz.netlify.app/](https://juanlpz.netlify.app/)**
+
+> Ese es mi despliegue personal. Si clonas este repo, reemplaza el link de arriba (y el contenido en `src/data/cv.*.json`) por tu propia URL de producción.
+
 <p>
 Esquema del JSON de CV de <a href="https://jsonresume.org/schema/">jsonresume.org</a>
 </p>
