@@ -120,6 +120,30 @@
             "status": "IN DEVELOPMENT",
             "description": "An early-stage personal finance tracker, still in early exploration.",
             "private": true
+        },
+        {
+            "name": "TuVigía",
+            "status": "LIVE",
+            "description": "A personal opportunity-intelligence platform, implemented and deployed for personal use only.",
+            "private": true
+        },
+        {
+            "name": "High Energy",
+            "status": "IN DEVELOPMENT",
+            "description": "Web app for class management at a CrossFit gym in Osorno.",
+            "private": true
+        },
+        {
+            "name": "CV Builder",
+            "status": "IN DEVELOPMENT",
+            "description": "Tool for creating and updating minimalist résumés in a few simple steps.",
+            "private": true
+        },
+        {
+            "name": "jlopezdigital",
+            "status": "IN DEVELOPMENT",
+            "description": "Commercial landing for jlopezdigital.cl: static sites and web presence for local businesses (Astro). Private repo; in progress.",
+            "private": true
         }
     ],
     "stack": {
