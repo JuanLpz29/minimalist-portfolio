@@ -78,11 +78,11 @@
     ],
     "projects": [
         {
-            "name": "Este Portafolio",
-            "status": "LIVE",
-            "description": "El sitio que estás viendo ahora mismo. Diseñado y construido desde cero con Astro, incluyendo el ruteo i18n EN/ES y la arquitectura de contenido.",
-            "url": "https://juanlpz.netlify.app",
-            "github": "https://github.com/JuanLpz29/minimalist-portfolio"
+            "name": "jlopezdigital",
+            "status": "IN DEVELOPMENT",
+            "description": "Landing comercial de jlopezdigital.cl: sitios estáticos y presencia web para negocios locales (Astro). Repo privado; en construcción.",
+            "url": "https://jlopezdigital.cl",
+            "private": true
         },
         {
             "name": "Las Recetas de Juanín",
@@ -135,10 +135,11 @@
             "private": true
         },
         {
-            "name": "jlopezdigital",
-            "status": "IN DEVELOPMENT",
-            "description": "Landing comercial de jlopezdigital.cl: sitios estáticos y presencia web para negocios locales (Astro). Repo privado; en construcción.",
-            "private": true
+            "name": "Este Portafolio",
+            "status": "LIVE",
+            "description": "El sitio que estás viendo ahora mismo. Diseñado y construido desde cero con Astro, incluyendo el ruteo i18n EN/ES y la arquitectura de contenido.",
+            "url": "https://juanlpz.netlify.app",
+            "github": "https://github.com/JuanLpz29/minimalist-portfolio"
         }
     ],
     "stack": {
