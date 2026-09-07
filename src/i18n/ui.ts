@@ -26,7 +26,7 @@ export const ui = {
         projects: {
             title: "Personal Projects",
             privateBadge: "Private repository",
-            liveDemo: "Live demo",
+            liveDemo: "View site",
             code: "Code",
         },
         stack: {
@@ -82,7 +82,7 @@ export const ui = {
         projects: {
             title: "Proyectos Personales",
             privateBadge: "Repositorio privado",
-            liveDemo: "Ver demo",
+            liveDemo: "Ver sitio",
             code: "Código",
         },
         stack: {

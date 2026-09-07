@@ -71,11 +71,6 @@
             "description": "Participé en una prueba de concepto diseñada para procesar millones de registros de boletas de honorarios en pocas horas, abordando desafíos de performance y procesamiento a gran escala."
         },
         {
-            "name": "Automatización Tributaria y de Gastos",
-            "stack": ["Backend", "Integraciones", "Automatización"],
-            "description": "Construí integraciones y automatización relacionadas con sistemas tributarios chilenos (SII), procesamiento de documentos, facturación y rendición de gastos sobre un producto existente."
-        },
-        {
             "name": "Productos con IA — NotCo",
             "stack": ["Vue", "Nuxt", "FastAPI", "Docker", "GitHub Actions"],
             "description": "Contribuí al desarrollo full-stack de productos basados en inteligencia artificial dentro de la industria alimentaria."

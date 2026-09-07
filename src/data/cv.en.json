@@ -71,11 +71,6 @@
             "description": "Contributed to a proof of concept designed to process millions of professional fee receipt records within a few hours, tackling performance and large-scale processing challenges."
         },
         {
-            "name": "Tax & Expense Automation",
-            "stack": ["Backend", "Integrations", "Automation"],
-            "description": "Built integrations and automation involving Chilean tax systems (SII), document processing, invoicing and expense reporting on an existing product."
-        },
-        {
             "name": "AI-Driven Products — NotCo",
             "stack": ["Vue", "Nuxt", "FastAPI", "Docker", "GitHub Actions"],
             "description": "Contributed to full-stack development of AI-driven products within the food-tech industry."
