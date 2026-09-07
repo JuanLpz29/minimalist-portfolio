@@ -79,8 +79,8 @@
     "projects": [
         {
             "name": "jlopezdigital",
-            "status": "IN DEVELOPMENT",
-            "description": "Landing comercial de jlopezdigital.cl: sitios estáticos y presencia web para negocios locales (Astro). Repo privado; en construcción.",
+            "status": "LIVE",
+            "description": "Landing comercial de jlopezdigital.cl: sitios estáticos y presencia web para negocios locales (Astro). Repo privado.",
             "url": "https://jlopezdigital.cl",
             "private": true
         },

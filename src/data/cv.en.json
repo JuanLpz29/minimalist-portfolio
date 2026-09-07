@@ -79,8 +79,8 @@
     "projects": [
         {
             "name": "jlopezdigital",
-            "status": "IN DEVELOPMENT",
-            "description": "Commercial landing for jlopezdigital.cl: static sites and web presence for local businesses (Astro). Private repo; in progress.",
+            "status": "LIVE",
+            "description": "Commercial landing for jlopezdigital.cl: static sites and web presence for local businesses (Astro). Private repo.",
             "url": "https://jlopezdigital.cl",
             "private": true
         },
