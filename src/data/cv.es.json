@@ -23,7 +23,7 @@
             "name": "Seicho Software Factory",
             "position": "Software Engineer",
             "startDate": "2026-03-01",
-            "endDate": null,
+            "endDate": "2026-09-12",
             "summary": "Ingeniería full-stack en múltiples productos de cliente. Me incorporo a codebases desconocidas y llevo funcionalidades nuevas de punta a punta.",
             "highlights": [
                 "Desarrollé una plataforma de sorteos de punta a punta con Next.js, NestJS y TypeScript, desde los requerimientos hasta la demo con cliente.",
