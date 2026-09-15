@@ -23,6 +23,7 @@ const { name, label, tagline, summary } = cv.basics;
 		<Hero cv={cv} t={t} lang={lang} />
 		<Experience cv={cv} t={t} lang={lang} />
 		<SelectedWork cv={cv} t={t} />
+		<Projects cv={cv} t={t} items={cv.clientWork} title={t.clientWork.title} />
 		<Projects cv={cv} t={t} />
 		<Skills cv={cv} t={t} />
 		<Languages cv={cv} t={t} />

@@ -76,6 +76,15 @@
             "description": "Contributed to full-stack development of AI-driven products within the food-tech industry."
         }
     ],
+    "clientWork": [
+        {
+            "name": "Livello",
+            "status": "IN DEVELOPMENT",
+            "description": "Shopify e-commerce store for Livello, a Chilean sports-nutrition brand for endurance athletes (running, triathlon, Hyrox). Scope: catalog structure, shopping experience, and brand-aligned customization.",
+            "url": "https://livellonutrition.cl",
+            "badge": "Freelance"
+        }
+    ],
     "projects": [
         {
             "name": "jlopezdigital",
@@ -119,8 +128,14 @@
         {
             "name": "TuVigía",
             "status": "LIVE",
-            "description": "A personal opportunity-intelligence platform, implemented and deployed for personal use only.",
-            "private": true
+            "description": "A Telegram bot that monitors public job and public-tender sources, notifying relevant opportunities based on personalized search profiles. Implemented and deployed for personal use.",
+            "roadmap": [
+                { "label": "Working architecture and bot (TypeScript, Turso/libSQL, Cloudflare Workers, Telegram)", "status": "done" },
+                { "label": "Integration of public job and tender sources", "status": "done" },
+                { "label": "Matching and relevance-filtering engine", "status": "done" },
+                { "label": "Production automation (hourly cycle)", "status": "done" },
+                { "label": "Stable use and ongoing monitoring", "status": "in-progress" }
+            ]
         },
         {
             "name": "High Energy",

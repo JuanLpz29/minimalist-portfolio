@@ -28,6 +28,14 @@ export const ui = {
             privateBadge: "Private repository",
             liveDemo: "View site",
             code: "Code",
+            roadmapStatus: {
+                done: "Done",
+                "in-progress": "In progress",
+                next: "Next",
+            },
+        },
+        clientWork: {
+            title: "Client Work",
         },
         stack: {
             title: "Tech Stack",
@@ -84,6 +92,14 @@ export const ui = {
             privateBadge: "Repositorio privado",
             liveDemo: "Ver sitio",
             code: "Código",
+            roadmapStatus: {
+                done: "Hecho",
+                "in-progress": "En progreso",
+                next: "Próximo",
+            },
+        },
+        clientWork: {
+            title: "Trabajo con Clientes",
         },
         stack: {
             title: "Tecnologías",
