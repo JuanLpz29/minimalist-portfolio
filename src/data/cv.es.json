@@ -94,6 +94,13 @@
             "private": true
         },
         {
+            "name": "CV Builder",
+            "status": "LIVE",
+            "description": "Gestor para creación y actualización de currículums minimalistas en simples pasos.",
+            "url": "https://vitae-builder.netlify.app",
+            "github": "https://github.com/JuanLpz29/minimalist-cv-builder"
+        },
+        {
             "name": "Las Recetas de Juanín",
             "status": "LIVE",
             "description": "Un recetario personal para organizar y compartir las recetas que realmente cocino.",
@@ -141,12 +148,6 @@
             "name": "High Energy",
             "status": "IN DEVELOPMENT",
             "description": "Aplicación web para la gestión de clases en un gimnasio de CrossFit de Osorno.",
-            "private": true
-        },
-        {
-            "name": "CV Builder",
-            "status": "IN DEVELOPMENT",
-            "description": "Gestor para creación y actualización de currículums minimalistas en simples pasos.",
             "private": true
         },
         {
