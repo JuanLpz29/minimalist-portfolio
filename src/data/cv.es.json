@@ -109,8 +109,8 @@
         },
         {
             "name": "whetstone",
-            "status": "IN DEVELOPMENT",
-            "description": "Un programa personal de práctica deliberada en TypeScript. Drills con repetición espaciada y un capstone full-stack documentado, construido sin asistencia de IA a propósito.",
+            "status": "EXPERIMENT",
+            "description": "Un programa personal de práctica deliberada que comienza en noviembre de 2026: lectura de requerimientos y de código ajeno, y drills de TypeScript escritos desde un archivo en blanco y repetidos en días espaciados. Las sesiones de práctica son sin asistencia de IA; el repo es el registro de avance.",
             "github": "https://github.com/JuanLpz29/whetstone"
         },
         {
@@ -127,9 +127,9 @@
             "github": "https://github.com/JuanLpz29/books-register"
         },
         {
-            "name": "Money Manager",
-            "status": "IN DEVELOPMENT",
-            "description": "Un gestor de finanzas personales en etapa temprana, todavía en exploración.",
+            "name": "Bandicash",
+            "status": "LIVE",
+            "description": "PWA de finanzas personales con servidor MCP, para que Claude registre gastos, cartolas y boletas como llamadas a herramientas. Full-stack con Nuxt 4 (API en Nitro, Drizzle, PostgreSQL), recordatorios con web push, tests con Vitest sobre Postgres en memoria (PGlite), CI en GitHub Actions y despliegue en Vercel + Neon.",
             "private": true
         },
         {
