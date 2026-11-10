@@ -135,6 +135,7 @@
         {
             "name": "TuVigía",
             "status": "LIVE",
+            "private": true,
             "description": "A Telegram bot that monitors public job and public-tender sources, notifying relevant opportunities based on personalized search profiles. Implemented and deployed for personal use.",
             "roadmap": [
                 { "label": "Working architecture and bot (TypeScript, Turso/libSQL, Cloudflare Workers, Telegram)", "status": "done" },
